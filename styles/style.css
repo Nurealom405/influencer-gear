@@ -67,6 +67,14 @@ body{
     
 }
 
+/* add company */
+.add-company{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 120px;
+    border-radius: 10px;
+}
 
 
 
