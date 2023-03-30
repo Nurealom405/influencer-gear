@@ -1,0 +1,36 @@
+/* font Family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(229, 230, 230);
+}
+
+
+
+
+/* nav style */
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: white;
+    padding: 0px 5px;
+    
+        
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    
+    
+}
+.nav-menu a{
+    text-decoration: none;
+}
+.nav h2{
+    margin-left: 20px;
+}
+
+
