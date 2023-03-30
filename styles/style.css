@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(229, 230, 230);
+    background-color: white;
 }
 
 
@@ -13,9 +13,9 @@ body{
 .nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    background-color: white;
+    align-items: center;    
     padding: 0px 5px;
+    margin-top: 40px;
     
         
 }
@@ -23,14 +23,53 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 20px;
-    
-    
+    /* display: flex;
+    flex-direction: row-reverse; media query er jonne */
+  
 }
 .nav-menu a{
     text-decoration: none;
 }
 .nav h2{
-    margin-left: 20px;
+    margin-left: 30px;
 }
+
+/* main body style */
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.main-body-info{
+    margin-top: 70px;
+}
+.main-body-info h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.main-body-info p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    /* text-justify: inter-word; */
+}
+.main-body-button{
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border: none;
+    border-radius: 41px;
+    font-size: 18px;
+    color: white;
+}
+.main-body-img{
+    margin-right: 80px;
+    
+}
+
+
+
+
+
 
 
