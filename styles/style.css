@@ -134,7 +134,8 @@ body{
 }
 .see-more{
     color: #E02C6D;
-    text-align: right;
+    margin-left: 1350px;
+    
 }
 
 /* Feature products at one place */
