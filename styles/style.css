@@ -157,6 +157,34 @@ body{
     color: #6C6C6C;
 }
 
+/* footer style */
+.footer{
+    background-color: black;
+    /* height: 350px; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    color: white;
+    text-align: center;
+    
+}
+.footer-info h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.footer-info p{
+    font-size: 15px;    
+}
+.footer-icon i{
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+
+
 
 
 
