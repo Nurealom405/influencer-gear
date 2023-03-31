@@ -63,7 +63,10 @@ body{
     color: white;
 }
 .main-body-img{
-    margin-right: 80px;
+    margin-right: 60px;
+    position: relative;
+    background-image: url('../images/Circle design.svg');
+    background-repeat: no-repeat;
     
 }
 
