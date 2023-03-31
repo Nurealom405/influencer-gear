@@ -101,7 +101,9 @@ body{
 }
 .item img{
     border-radius: 10px;
-    padding: 25px 25px 0px 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* padding: 25px 25px 0px 50px; */
     /* margin: 15px;
     margin-left: 45px; */
 }
@@ -160,7 +162,7 @@ body{
 
 /* footer style */
 .footer{
-    background-color: black;
+    background-color: rgb(81, 76, 76);
     /* height: 350px; */
     
     display: flex;
@@ -184,6 +186,35 @@ body{
     margin-bottom: 50px;
     margin-right: 15px;
 }
+
+
+/* Responsive */
+
+@media screen and (max-width: 688px) {
+    .popular-items{
+        /* margin: auto; */
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 30px; */
+        
+    }
+    .popular-collections p{
+        margin-left: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.nav, .main-body, .add-company, .see-more, .feature-products, .footer{
+    display: none;
+}
+
 
 
 
